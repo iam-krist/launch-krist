@@ -1,0 +1,17 @@
+.block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.socialIcons {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  background: linear-gradient(215deg,#12c2e9,#c471ed,#f64f5a);
+}
+.socialLink svg{
+  width: 25px;
+  margin: 10px;
+  fill: black;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
