@@ -66,7 +66,7 @@ const SocialIcons = () => {
         <div className={styles.block}>
             <div className={styles.socialIcons}>
                 { socials.filter(social=> social.enabled).map((enabledSocial) =>  (
-                    <a key={enabledSocial.key} className={styles.socialLink} target="_blank" href={enabledSocial.url}>{enabledSocial.icon}</a>
+                    <a key={enabledSocial.key} className={styles.socialLink} rel="noopener" target="_blank" href={enabledSocial.url}>{enabledSocial.icon}</a>
                 ))}
             </div>
         </div>        
