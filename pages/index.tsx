@@ -25,8 +25,10 @@ const Home = () => {
     }
 
   return (
-    <div className={styles.container}>                
-      <Image onClick={glitch} className={styles.logoImage} src={avatar} alt="" />                                
+    <div className={styles.container}>
+      {/* <div className={styles.ImageBox}>
+        <Image layout='fill' onClick={glitch} className={styles.logoImage} src={avatar} alt="" /> 
+      </div>                */}
       <h1 className={styles.headingName}> { info.name + ' ' + info.surname} </h1>
       <h5 className={styles.title}> {info.title} </h5>
       <p className={styles.intro}> {info.intro} </p>
