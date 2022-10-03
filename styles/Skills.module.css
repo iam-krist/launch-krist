@@ -1,0 +1,40 @@
+.skillbar {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.skillbarBar:before {
+  background: #ffffff09;
+  border-radius: 100% 0px 100% 0px;
+  content: "";
+  height: 18px;
+  position: absolute;
+  width: 90%;
+  z-index: -1;
+}
+.skillbarBar {
+  height: 18px;
+  width: 0px;
+  background: linear-gradient(290deg,#12c2e9,#c471ed,#f64f5a);
+  border-radius: 100% 0px 100% 0px;
+  transition-property: width, background-color;
+}
+.skillbarTitle {
+  color: whitesmoke;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 100;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.skillBarPercent {
+  font-family: 'Montserrat', sans-serif;
+  float: right;
+  margin-left: 35px;
+  display: inline-block;
+  color: whitesmoke;
+  font-size: 18px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
